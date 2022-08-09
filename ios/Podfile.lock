@@ -1,0 +1,75 @@
+PODS:
+  - app_group_directory (1.0.0):
+    - Flutter
+  - apphud (2.2.3):
+    - ApphudSDK (= 2.8.3)
+    - Flutter
+  - ApphudSDK (2.8.3)
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - Flutter (1.0.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - Purchases (3.13.2):
+    - PurchasesCoreSwift (= 3.13.2)
+  - purchases_flutter (3.10.0):
+    - Flutter
+    - PurchasesHybridCommon (= 1.11.2)
+  - PurchasesCoreSwift (3.13.2)
+  - PurchasesHybridCommon (1.11.2):
+    - Purchases (= 3.13.2)
+  - ReachabilitySwift (5.0.0)
+  - shared_preference_app_group (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - app_group_directory (from `.symlinks/plugins/app_group_directory/ios`)
+  - apphud (from `.symlinks/plugins/apphud/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - purchases_flutter (from `.symlinks/plugins/purchases_flutter/ios`)
+  - shared_preference_app_group (from `.symlinks/plugins/shared_preference_app_group/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ApphudSDK
+    - Purchases
+    - PurchasesCoreSwift
+    - PurchasesHybridCommon
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  app_group_directory:
+    :path: ".symlinks/plugins/app_group_directory/ios"
+  apphud:
+    :path: ".symlinks/plugins/apphud/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  purchases_flutter:
+    :path: ".symlinks/plugins/purchases_flutter/ios"
+  shared_preference_app_group:
+    :path: ".symlinks/plugins/shared_preference_app_group/ios"
+
+SPEC CHECKSUMS:
+  app_group_directory: 7bf9f8f9819ead554de29da7c25fb7a680d6a9a0
+  apphud: 48ab100a010017e6c9520866f9510123f08f9f9d
+  ApphudSDK: a9d093a57d9fe5c7714380caad7bce5f9243f8a1
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  Purchases: 03200de9288724e77de435000d1828601e6b8e00
+  purchases_flutter: bcc0010ed14e80a46cc9050bd1afbfb9c48eee17
+  PurchasesCoreSwift: 2ea4b33e5cece5c8a0751594ef7c6cbfcbd747a9
+  PurchasesHybridCommon: 56ef42d85c3e930d49aff4ac5fa027373d2e1bb8
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  shared_preference_app_group: 83d2284f9e747839c40fc281403b5b60d83e2989
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.11.2

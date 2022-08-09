@@ -1,0 +1,114 @@
+{
+  "identifier" : "03892FE2",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "533578D7",
+      "localizations" : [
+
+      ],
+      "name" : "Paid plans",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "11.49",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "9759C60A",
+          "introductoryOffer" : {
+            "internalID" : "FAC416C3",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Provides 1 week access to premium features",
+              "displayName" : "Weekly subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "sf_1149_1w_3d0",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly $11.49, 3 days free",
+          "subscriptionGroupID" : "533578D7",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A7512910",
+          "introductoryOffer" : {
+            "internalID" : "1B83AF82",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Provides 1 month access to premium features",
+              "displayName" : "Monthly subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "sf_2499_1m_3d0",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly $24.99, 3 days free",
+          "subscriptionGroupID" : "533578D7",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6DEAF4CB",
+          "introductoryOffer" : {
+            "internalID" : "C260BBE7",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Provides 1 year access to premium features",
+              "displayName" : "Yearly subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "sf_4999_1y_3d0",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly $49.99, 3 days free",
+          "subscriptionGroupID" : "533578D7",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
