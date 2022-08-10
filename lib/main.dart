@@ -1,18 +1,16 @@
 import 'package:apphud/apphud.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
 import 'package:stop_fraud/consts/constants.dart';
 import 'package:stop_fraud/controllers/paywall_controller.dart';
 import 'package:stop_fraud/screens/main_screen.dart';
-
 import 'screens/my_introduction_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   initPlatformState();
   await GetStorage.init();
 

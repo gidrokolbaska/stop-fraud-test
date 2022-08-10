@@ -57,14 +57,6 @@ class BlacklistWhitelistController extends GetxController {
     );
   }
 
-  // void removeLinkFromWhiteListSites() async {
-  //   listsStorage.remove('whiteListSites');
-  //   await GetStorage().write(
-  //     'whiteListSites',
-  //     whiteListSites,
-  //   );
-  // }
-
   Future<bool> checkIfExtensionIsEnabled() async {
     bool result;
     result = await extensionChannel.invokeMethod('getExtensionStatus');
